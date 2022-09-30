@@ -16,7 +16,7 @@
         },
         "clusterVersion": {
           "type": "string",
-          "defaultValue": "3.6",
+          "defaultValue": "4.0",
           "metadata": {
             "description": "The HDInsight cluster version."
           }
@@ -221,7 +221,7 @@
         "clusterDefinition": {
           "kind": "Spark",
           "componentVersion": {
-            "Spark": "2.2"
+            "Spark": "2.4"
           },
           "configurations": {
             "gateway": {
